@@ -1,0 +1,292 @@
+/* *{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   background: #0579e6;
+} */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Poppins:wght@100;600&display=swap');
+body,html{  
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        .d-block{
+            filter: brightness(70%);
+        }
+     
+        #logo img{
+            height: 48px;
+            width: 52px;
+        }
+        
+
+
+
+       .d-block{
+        height: 670px;
+        
+       }
+
+       #bannertext{
+        font-size: 25px;
+        font-weight: 500;
+        font-family: 'Open Sans', sans-serif;
+       }
+
+       h2{
+         font-size: 60px;
+         color: #ffffff;
+         line-height: 1.1;
+         font-weight: 900;
+         margin-bottom: 30px;
+
+       }
+
+       .carousel-caption{
+        margin-bottom: 320px;
+       }
+
+    
+        
+        #btn1{
+        margin-left: 10px;
+       
+        }
+
+       
+        
+        #btn2{
+      
+        margin-left: 15px;
+        }
+
+        /* nav bar dropdown button */
+
+        .dropdown-menu li a{
+            margin: none !important;
+        }
+
+        .dropdown-menu li a:hover{
+            
+            background-color: green ;
+            margin: none !important;
+        }
+
+       
+        
+/* navbar button */
+
+.button1 a button{
+   color: green;
+   border-color: green;
+}
+
+.button1 a button:hover{
+    color:white;
+    background-color: green;
+ }
+
+   
+.dropdown button{
+    
+    border: none !important;
+    color: #222;
+    background: none !important;
+    
+}
+.dropdown button:hover{
+    
+    color: green !important;
+    
+}
+
+.nav-link{
+    color: black !important;
+}
+
+.nav-link:hover{
+    color: green !important;
+}
+
+/* csss file */
+#bd{
+    background-color: #f8f8f8;
+ }
+ 
+ .signup-image-link{
+    margin-left: 86px;
+ }
+ 
+ .remember-me{
+    margin-top: 22px;
+    text-align: center;
+ }
+ .form-group{
+    
+     background-color:#ffffff;
+     padding: 34px 32px;
+     border-radius: 10px;
+     margin-top: 50px;
+     color: black;
+     box-shadow: 0 0 10px  #f3f3f3;
+     
+ }
+ .form-group h1{
+    font-weight: bold;
+    text-align: center;
+    color: #222;
+    font-size: 36px;
+ }
+ 
+ #button{
+    color: white;
+    border: none;
+    margin: 20px;
+    background:  #95b9db;
+    cursor: pointer;
+ }
+ 
+ #button:hover{
+    background: #0579e6;
+ }
+ 
+ 
+ .container{
+    background-color: blue;
+ }
+ 
+ .social-login social 
+      {
+     display: inline-flex;
+      }
+ 
+ .social{
+     display: inline-flex;
+     list-style-type: none;
+     margin-top: 20px;
+     margin-left: -21px;
+  }
+ 
+  
+ 
+  .content{
+    
+    position: relative;
+  }
+ 
+  .det{
+    display: flex;
+    margin-top: 19px;
+  }
+ 
+ 
+ 
+  .det i{
+    padding: 18px 0px 0px 0px;
+  }
+ 
+  #input{
+    width: 100%;
+    border: hidden;
+    border-bottom:2px solid #999;
+    border-radius:0%;
+    box-shadow: none;
+    
+  }
+ 
+  .social-login{
+    text-align: center;
+  }
+ 
+  
+ /* signup */
+ 
+ #signup-button{
+    color: white;
+    border: none;
+    margin: 20px;
+    background:  #95b9db;
+    cursor: pointer;
+    margin-left: 20px;
+ 
+ }
+ 
+ #signup-button:hover{
+    background: #0579e6;
+ }
+ 
+  /* social media */
+ 
+ #fb{
+     padding: 9px 12px;
+     color: white;
+     background-color: #3b5998;
+     margin-left: 0px;
+     border-radius: 5px;
+    transition: transform 0.2s;
+ 
+  }
+ 
+  #tw{
+    padding: 9px ;
+    color: white;
+    background-color: #1da0f2;
+    margin-left: 10px;
+    border-radius: 5px;
+    transition: transform 0.2s;
+ 
+ 
+ }
+ 
+ #gg{
+    padding: 9px;
+    color: white;
+    background-color: #e72734;
+    margin-left: 10px;
+    border-radius: 5px;
+    transition: transform 0.2s;
+ }
+ 
+ #gg:hover{
+    transform: scale(1.1); 
+ }
+ 
+ #tw:hover{
+    transform: scale(1.1); 
+ } 
+ 
+ #fb:hover{
+    transform: scale(1.1); 
+ }
+ 
+ 
+  
+             
+          
+ /* about us  */
+
+
+.template img{
+   width: 1535px;
+   margin-top: 63px
+}
+
+.template h2{
+   margin-left: 43%;
+   
+}
+
+.headline h2{
+position: relative;
+margin-left: 42%;
+}
+
+.details div{
+   width: 40%;
+   display: flexbox;
+}
+
+
